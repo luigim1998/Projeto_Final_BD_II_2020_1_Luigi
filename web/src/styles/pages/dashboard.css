@@ -1,0 +1,81 @@
+#dashboard {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(329.54deg, #4e4e4e 0%, #000000 100%);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#dashboard .dashboard-menu{
+  position: relative;
+  background: #ffffff;
+  border: 1px solid black;
+  border-radius: 20px;
+
+  width: 100%;
+  max-width: 500px;
+
+  height: 100%;
+  max-height: 300px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.registerBtn{
+  margin-top: 25px;
+  background: #48f525e7;
+  border: 1px solid rgb(93, 202, 31);
+  border-radius: 5px;
+  width: 300px;
+  height: 50px;
+  font-size: 25px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.registerBtn:hover{
+  background: #1fb800e7;
+  color:  #ffffff;
+
+}
+
+.recomendationBtn{
+  margin-top: 25px;
+  border: 1px solid rgb(93, 202, 31);
+  border-radius: 5px;
+  background: #48f525e7;
+  width: 300px;
+  height: 50px;
+  font-size: 25px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.recomendationBtn:hover{
+  background: #1fb800e7;
+  color: #ffffff;
+}
+
+.gamesBtn{
+  margin-top: 25px;
+  border: 1px solid rgb(93, 202, 31);
+  border-radius: 5px;
+  background: #48f525e7;
+  width: 300px;
+  height: 50px;
+  font-size: 25px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.gamesBtn:hover{
+  background: #1fb800e7;
+  color: #ffffff;
+}

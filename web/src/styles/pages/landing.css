@@ -1,0 +1,162 @@
+#page-landing{
+  width: 100vw;
+  height: 100vh;
+  /* background: linear-gradient(329.54deg, #59ff83 0%, #0bce35 100%); */
+  background-image: url("../../images/s6Uv3M.jpg");
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#page-landing .content-wrapper{
+  position: relative;
+
+  width: 100%;
+
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+
+  /*background: url('../../images/landing.svg') no-repeat 80% center;*/
+  /*background: url('../../images/Skadi1.jpg') no-repeat 100% center;*/
+}
+
+#page-landing .content-wrapper main{
+  margin: auto;
+  margin-top: 115px;
+  text-align: center;
+  height: 100%;
+}
+
+#page-landing .content-wrapper main h1{
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 40px;
+  color: #ffffff;
+  border-radius: 5px;
+  margin: 0 0 10px 0;
+}
+
+#page-landing .content-wrapper main h2{
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 40px;
+  color: #ffffff;
+  border-radius: 5px;
+  margin: 0 0 10px 0;
+}
+
+#page-landing .content-wrapper main p{
+  margin-top: 40px;
+  font-size: 24px;
+  line-height: 34px;
+}
+
+.loginForm{
+  width: 700px;
+  margin: 10px auto;
+
+  background: #ffffff;
+  border: 1px solid black;
+  border-radius: 20px;
+
+  padding: 15px 80px;
+
+  overflow: hidden;
+}
+
+.loginForm input{
+  border-radius: 10px;
+}
+
+.input-block{
+  margin-top: 20px;
+}
+
+.btnContainer{
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.btnContainer button{
+  height: 30px;
+  border: 1px solid #d3e2e5;
+  color: #ffffff;
+  cursor: pointer;
+  width: 150px;
+}
+
+.confirm-button{
+  margin-right: 10px;
+  background: #5e5e5ec4;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.confirm-button:hover{
+  background: #585858e3;
+
+}
+
+.register-button{
+  margin-left: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background: #1fb800e7;
+}
+
+.register-button:hover{
+  background: #298d15e7;
+}
+
+.input-block label {
+  display: block;
+  color:black;
+  margin-bottom: 8px;
+  line-height: 24px;
+  align-self: center;
+}
+
+.content-wrapper .location{
+  position: absolute;
+  right: 0;
+  top: 0;
+
+  font-size: 24px;
+  line-height: 34px;
+
+  display: flex;
+  flex-direction: column;
+
+  text-align: right;
+}
+
+.content-wrapper .location strong{
+  font-weight: 800;
+}
+
+.content-wrapper .enter-app{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+
+  width: 80px;
+  height: 80px;
+  background: #ffd666;
+  border-radius: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: background-color 0.2s;
+}
+
+.content-wrapper .enter-app:hover{
+  background: #96Feff;
+}

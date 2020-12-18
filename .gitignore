@@ -1,0 +1,3 @@
+backend_mongo/node_modules/*
+backend_neo4j/node_modules/*
+backend_sqlite/node_modules/*

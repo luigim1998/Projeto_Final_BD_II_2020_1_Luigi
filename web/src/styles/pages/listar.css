@@ -1,0 +1,100 @@
+#likelist {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(329.54deg, #4e4e4e 0%, #000000 100%);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#likelist .like-menu{
+  position: relative;
+  background: #ffffff;
+  border: 1px solid black;
+  border-radius: 20px;
+
+  width: 100%;
+  max-width: 500px;
+
+  height: 100%;
+  max-height: 600px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.lista{
+  margin-top: 50px;
+  width: 350px;
+  background: #000000;
+}
+
+.lista td{
+  align-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #000000;
+  font-size: 20px;
+  font-weight: 700;
+  height: 50px;
+}
+
+.lista th{
+  background: #dadada;
+  color: #000000;
+}
+
+.lista tr:nth-child(odd){
+  background-color: #37e220;
+}
+
+.lista tr{
+  justify-content: center;
+
+  width: 500px;
+  height: 40px;
+  background: #00ac00;
+}
+
+#likelist  h1{
+  color:rgb(255, 255, 255);
+  font-size: 50px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+#likelist .like-menu h2{
+  color:rgb(73, 223, 80);
+  font-size: 30px;
+  font-weight: 900;
+}
+
+#likelist .like-menu li{
+  color:black;
+  font-weight: 900;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.delBtn{
+  width: 120px;
+  background: #ec3e3ee3;
+  border: 1px solid rgb(224, 22, 22);
+  border-radius: 5px;
+  height: 30px;
+}
+
+.delBtn:hover{
+  background: #fa0000e8;
+  color: #ffffff;
+}
+
+.delBtn span{
+  font-size: 25px;
+  font-weight: 900;
+}
